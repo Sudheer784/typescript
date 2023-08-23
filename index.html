@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="item">
+            <div class="header"> 
+                <div class="h-item1">
+                    <h3>To-Do List</h3>
+                </div>   
+                <div class="h-item2">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                </div>
+            </div>
+            <div class="content">
+                <div class="subportion">
+                    <div class="createtask">
+                        <label>Create Task :</label>
+                    </div>
+                    <div class="addtask">   
+                        <input type="text" id="inputValue" placeholder="Task name">
+                    </div>
+                    <div class="addbtn">
+                        <button onclick="addRow()"><ion-icon name="add-outline"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="tasks">
+                    <table id="dataTable">
+                        <thead>
+                        </thead>
+                        <tbody>
+                        </tbody>  
+                    </table>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

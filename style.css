@@ -1,0 +1,101 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left:15%;
+    padding-right: 15%;  
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left:10px;
+    margin:10px;
+    background-color:#FF6196;
+}
+
+.h-item1{
+    align-self: center;
+    padding:0%;
+}
+
+
+.h-item2{
+    align-self: flex-end;
+}
+
+
+.item{
+    width:50%;
+    height: fit-content;
+    background-color:#FFE5EE;
+    border: solid 2px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+    padding-left:10px;
+}
+
+.subportion{
+    display:flex;
+    flex-direction: row;  
+    padding-bottom:8px;
+    padding-left: 10px;
+}
+
+.createtask{
+    display: contents;
+}
+
+.addtask{
+    padding-right:10px;
+    border-radius: 50px;
+    padding-left:15px;
+}
+
+/* JS code */
+.completed {
+    text-decoration: line-through;
+}
+
+ion-icon {
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+
+button{
+    background-color:  #19105b;
+    border-radius: 5px;
+}
+
+#dataTable {
+    width: 100%;
+}
+
+#dataTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+ 
+
+#dataTable td:last-child {
+    text-align: center;
+}
+ 
+
+#dataTable select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
